@@ -1,0 +1,38 @@
+#conteneurPrincipal {
+  background-color: yellow;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  gap: 4px;
+  justify-items: center;
+}
+
+#conteneurSujet {
+  border: 5px solid rgb(16, 138, 0);
+}
+
+#conteneurProposition {
+  border: 5px solid rgb(252, 38, 0);
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  justify-items: center;
+}
+
+#listeProposition {
+  border: 3px dotted black;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#addProposition {
+  border: 3px dotted gray;
+}
+
+li {
+  /* list-style: none; */
+}
